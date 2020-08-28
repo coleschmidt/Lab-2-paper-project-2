@@ -32,7 +32,7 @@ int main(){
 	float sq = sqrt(i);
 	
 	if((sq - floor(sq)) == 0){
-		printf("%d is perfect square.", i);
+		printf("%d is a perfect square.", i);
 	}
 	
 	else {
