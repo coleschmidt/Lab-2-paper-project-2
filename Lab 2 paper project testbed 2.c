@@ -4,7 +4,7 @@
 int gl = 5;
 
 int main(){
-	int i =7;
+	int i = 7;
 	float v;
 	v = 3.14;
 	printf("i=%d v=%f", i, v);
