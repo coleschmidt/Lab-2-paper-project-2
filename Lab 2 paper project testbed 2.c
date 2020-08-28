@@ -20,10 +20,28 @@ int main(){
 		printf("%f is positive\n", v);
 	}
 	else if(v == 0){
-		printf("%f is equal to zero\n", v)
+		printf("%f is equal to zero\n", v);
 	}
 	
-	float
+	float f = 4.51;
+	
+	if (f-(intf == 0)){
+		printf("%f is an interger", f);
+	}
+	
+	else{
+		printf("%f is not an interger", f);
+	}
+	
+	float sqrt(i) = sq;
+	
+	if((sq - floor(sq)) == 0){
+		printf("%d is perfect square.", i);
+	}
+	
+	else {
+		printf("%d is not a perfect square", i);
+	}
 	
 	printf("The square root of ")
 }
