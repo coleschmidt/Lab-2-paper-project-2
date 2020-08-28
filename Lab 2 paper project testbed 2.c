@@ -11,7 +11,7 @@ int main(){
 	
 	i = i * gl;
 	v = v * gl;
-	printf("i=%d v=%f\n", i, v);%d is %f\n", i, sqrt(i))"
+	printf("%d is %f\n", i, sqrt(i));
 	
 	if (v < 0){
 		printf("%f is negative\n", v);
@@ -25,7 +25,7 @@ int main(){
 	
 	float f = 4.51;
 	
-	if (f-(intf == 0)){
+	if (f - (int)f == 0){
 		printf("%f is an interger", f);
 	}
 	
@@ -33,15 +33,15 @@ int main(){
 		printf("%f is not an interger", f);
 	}
 	
-	float sqrt(i) = sq;
+	float sq = sqrt(i);
 	
 	if((sq - floor(sq)) == 0){
 		printf("%d is perfect square.", i);
 	}
 	
 	else {
-		printf("%d is not a perfect square", i);
+		printf("\n%d is not a perfect square", i);
 	}
 	
-	printf("The square root of ")
+	return(0);
 }
